@@ -33,7 +33,7 @@ h1, h2, h3, .quote {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 64px;
+  margin-top: 0;
 }
 
 .cover img {
@@ -193,6 +193,7 @@ h1, h2, h3, .quote {
   .mosaic { column-count: 2; }
   .cover {
     height: 35vh;
+    margin-top: 0;
   }
 }
 
