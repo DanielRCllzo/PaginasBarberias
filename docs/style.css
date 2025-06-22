@@ -426,7 +426,8 @@ footer {
   width: 100%;
   z-index: 100;
   /* Siempre visible con fondo oscuro para evitar textos blancos sobre fondo blanco */
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0,0,0,0.90) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
