@@ -374,8 +374,8 @@ footer {
 
 /* Tamaño de texto de la historia */
 .story p {
-  font-size: 1.62rem; /* ~26px */
-  line-height: 2.1;
+  font-size: 1.3rem; /* reducido ~20 % */
+  line-height: 1.8;
 }
 
 /* ===== ANIMACIONES GENERALES ===== */
