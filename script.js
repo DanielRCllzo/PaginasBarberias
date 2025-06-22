@@ -1,20 +1,16 @@
 // Imágenes de portada (rotan cada 6 s)
-const coverImages = [
-  "../fotos/IMG-20250621-WA0002.jpg",
-  "../fotos/IMG-20250621-WA0004.jpg",
-  "../fotos/IMG-20250621-WA0020.jpg",
-];
+const coverImages = ["fotos/img01.jpg", "fotos/img02.jpg", "fotos/img03.jpg"];
 
 // Galería mosaico (todas las disponibles)
 const galleryImages = [
-  "../fotos/IMG-20250621-WA0002.jpg",
-  "../fotos/IMG-20250621-WA0004.jpg",
-  "../fotos/IMG-20250621-WA0007.jpg",
-  "../fotos/IMG-20250621-WA0019.jpg",
-  "../fotos/IMG-20250621-WA0020.jpg",
-  "../fotosBarberiaRigo/IMG-20250621-WA0005.jpg",
-  "../fotosBarberiaRigo/IMG-20250621-WA0006.jpg",
-  "../fotosBarberiaRigo/IMG-20250621-WA0008.jpg",
+  "fotos/img01.jpg",
+  "fotos/img02.jpg",
+  "fotos/img05.jpg",
+  "fotos/img04.jpg",
+  "fotos/img03.jpg",
+  "fotos/img06.jpg",
+  "fotos/img07.jpg",
+  "fotos/img08.jpg",
 ];
 
 /******************* Slider Portada *******************/
