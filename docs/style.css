@@ -425,10 +425,12 @@ footer {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: transparent;
+  /* Siempre visible con fondo oscuro para evitar textos blancos sobre fondo blanco */
+  background: rgba(0, 0, 0, 0.85);
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Mantiene la sombra cuando se hace scroll */
 .navbar.scrolled {
   background: rgba(0,0,0,0.85);
   box-shadow: 0 2px 8px rgba(0,0,0,0.4);
