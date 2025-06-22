@@ -511,4 +511,57 @@ footer {
   width: 4px;
   height: 100%;
   background: var(--primary);
+}
+
+/* ===== MENÚ HAMBURGUESA (mobile) ===== */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 5px;
+  padding: 0 4px;
+}
+.menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--light);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Estado abierto: X */
+.navbar.open .menu-toggle span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.navbar.open .menu-toggle span:nth-child(2) {
+  opacity: 0;
+}
+.navbar.open .menu-toggle span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Navegación móvil oculta/desplegable */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+  .nav-links {
+    position: fixed;
+    top: 64px;
+    right: 0;
+    height: calc(100vh - 64px);
+    width: 220px;
+    background: rgba(0,0,0,0.95);
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+  .navbar.open .nav-links {
+    transform: translateX(0);
+  }
 } 

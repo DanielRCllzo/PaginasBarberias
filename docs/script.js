@@ -159,3 +159,15 @@ const galleryImages = [
   window.addEventListener("scroll", onScroll);
   onScroll();
 })();
+
+// ---- Menú hamburguesa ----
+(function mobileMenu() {
+  const btn = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".navbar");
+  if (!btn || !nav) return;
+  btn.addEventListener("click", () => {
+    const expanded = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", (!expanded).toString());
+    nav.classList.toggle("open");
+  });
+})();
