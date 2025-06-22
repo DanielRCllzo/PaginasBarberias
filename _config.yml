@@ -1,0 +1,8 @@
+title: "Barbería Rigo"
+description: "Del Malecón a Miami, del Caribe al Barbanza"
+# Tema oficial de GitHub Pages
+theme: jekyll-theme-primer
+# El nombre del repositorio para que las rutas sean correctas
+author: "Rigo"
+baseurl: "/PaginasBarberias"
+url: "https://danielrcllzo.github.io" 
